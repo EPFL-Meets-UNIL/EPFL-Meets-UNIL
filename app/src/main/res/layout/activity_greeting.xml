@@ -10,7 +10,9 @@
         android:id="@+id/greetingMessage"
         android:layout_width="122dp"
         android:layout_height="122dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="241dp"
         android:text="Hello"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="241dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
